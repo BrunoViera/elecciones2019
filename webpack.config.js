@@ -1,36 +1,41 @@
-const HtmlWebPackPlugin = require("html-webpack-plugin");
+const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  entry: './src/index.jsx',
+  resolve: { extensions: ['.js', '.jsx'] },
   module: {
     rules: [
-      { test: /\.png$/, use: ["url-loader?mimetype=image/png"] },
+      { test: /\.png$/, use: ['url-loader?mimetype=image/png'] },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
+          loader: 'babel-loader',
+          query: {
+            plugins: ['recharts'],
+          },
+        },
       },
       {
         test: /\.html$/,
         use: [
           {
-            loader: "html-loader",
+            loader: 'html-loader',
             options: {
               minimize: true,
               removeComments: false,
               collapseWhitespace: false,
               removeAttributeQuotes: false,
-             }
-          }
-        ]
-      }
-    ]
+            },
+          },
+        ],
+      },
+    ],
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: "./public/index.html",
-      filename: "./index.html"
-    })
-  ]
+      template: './public/index.html',
+      filename: './index.html',
+    }),
+  ],
 };
