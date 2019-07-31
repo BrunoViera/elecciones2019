@@ -5,19 +5,18 @@ import CandidatosPie from '../charts/CandidatosPie';
 
 export default class Partido extends React.PureComponent {
   render() {
-    const { name, candidatos } = this.props;
+    const { name } = this.props.data;
     return (
       <div className="partido-wrapper">
         <h2>{name}</h2>
         <div className="partido">
-          <CandidatosPie data={candidatos} />
+          <CandidatosPie data={this.props.data.candidates} />
         </div>
       </div>
     );
   }
 }
 
-Partido.propTypes = {
-  name: PropTypes.string.isRequired,
-  candidatos: PropTypes.arrayOf(PropTypes.object).isRequired,
-};
+// Partido.propTypes = {
+//   data: PropTypes.objectOf,
+// };
