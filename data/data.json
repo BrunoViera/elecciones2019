@@ -1,0 +1,151 @@
+{
+  "general": [
+    { "name": "Votos En Blanco", "votes": 5436 },
+    { "name": "Votos Anulados", "votes": 7478 },
+    { "name": "Votos ObsRechazados", "votes": 634 },
+    { "name": "Total Votos Emitidos", "votes": 1078992 }
+  ],
+  "partidos": [
+    {
+      "name": "Frente Amplio",
+      "color": "#042F59",
+      "votes": 259160,
+      "candidates": [
+        { "name": "Daniel MARTÍNEZ" , "votes": 108943 , "color": "#eee"},
+        { "name": "Carolina COSSE", "votes": 65914 , "color": "#eee"},
+        { "name": "Oscar ANDRADE", "votes": 59646 , "color": "#eee"},
+        { "name": "Mario BERGARA", "votes": 24119, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Nacional",
+      "votes": 457376,
+      "color": "#33a6e0",
+      "candidates": [
+        { "name": "Enrique ANTIA" , "votes": 34351 , "color": "#eee"},
+        { "name": "Carlos IAFIGLIOLA" , "votes": 1705 , "color": "#eee"},
+        { "name": "Luis LACALLE" , "votes": 245634 , "color": "#eee"},
+        { "name": "Jorge LARRAÑAGA" , "votes": 80524 , "color": "#eee"},
+        { "name": "Juan SARTORI", "votes": 94581, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Colorado",
+      "votes": 184819,
+      "color": "#cc0000",
+      "candidates": [
+        { "name": "Jose AMORIN", "votes": 24487 , "color": "#eee"},
+        { "name": "Pedro ETCHEGARAY", "votes": 46 , "color": "#eee"},
+        { "name": "Jose GONZALEZ", "votes":3  , "color": "#eee"},
+        { "name": "Edgardo MARTINEZ", "votes": 188 , "color": "#eee"},
+        { "name": "Julio Maria SANGUINETTI", "votes": 60635 , "color": "#eee"},
+        { "name": "Ernesto TALVI", "votes": 99280, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Independiente",
+      "votes": 2073,
+      "color": "#3A0E4F",
+      "candidates": [
+        { "name": "Pablo MIERES", "votes": 2073, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Asamblea Popular",
+      "votes": 4165,
+      "color": "#D5000C",
+      "candidates": [
+        { "name": "Gonzalo ABELLA", "votes": 4164, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "De la Concertación",
+      "votes": 486,
+      "color": "#22A457",
+      "candidates": [
+        { "name": "Julio HERRERA", "votes": 486, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "De los Trabajadores",
+      "votes": 566,
+      "color": "#93272D",
+      "candidates": [
+        { "name": "Rafael FERNANDEZ", "votes": 566, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "P.E.R.I.",
+      "votes": 2604,
+      "color": "#118103",
+      "candidates": [
+        { "name": "Cesar VEGA", "votes": 2604, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Verde Animalista",
+      "votes": 3075,
+      "color": "#15900F",
+      "candidates": [
+        { "name": "Gustavo SALLE", "votes": 3075, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "De la Gente",
+      "votes": 6799,
+      "color": "#68B048",
+      "candidates": [
+        { "name": "Fernando CAROTTA", "votes": 90 , "color": "#eee"},
+        { "name": "Edgardo NOVICK", "votes": 6709, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Orden Republicano",
+      "votes": 250,
+      "color": "#D26B49",
+      "candidates": [
+        { "name": "Hugo GROSSI", "votes": 250, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Cabildo Abierto",
+      "votes": 49485,
+      "color": "#FAB128",
+      "candidates": [
+        { "name": "Guido MANINI", "votes": 49485, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Abriendo Caminos",
+      "votes": 135,
+      "color": "#D6B014",
+      "candidates": [
+        { "name": "Jorge PATRITTI", "votes": 135, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Democrático Unido",
+      "votes": 134,
+      "color": "#91301E",
+      "candidates": [
+        { "name": "Jorge SILVA", "votes": 134, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Digital",
+      "votes": 605,
+      "color": "#F95F07",
+      "candidates": [
+        { "name": "Daniel GOLDMAN", "votes": 605, "color": "#eee" }
+      ]
+    },
+    {
+      "name": "Votos en Blanco",
+      "votes": 93712,
+      "color": "#fff",
+      "candidates": [
+        { "name": "Votos en Blanco", "votes": 93712, "color": "#eee" }
+      ]
+    }
+  ]
+}
