@@ -22,11 +22,11 @@
       "votes": 457376,
       "color": "#33a6e0",
       "candidates": [
-        { "name": "Enrique ANTIA" , "votes": 34351 , "color": "#eee"},
-        { "name": "Carlos IAFIGLIOLA" , "votes": 1705 , "color": "#eee"},
         { "name": "Luis LACALLE" , "votes": 245634 , "color": "#eee"},
+        { "name": "Juan SARTORI", "votes": 94581, "color": "#eee" },
         { "name": "Jorge LARRAÑAGA" , "votes": 80524 , "color": "#eee"},
-        { "name": "Juan SARTORI", "votes": 94581, "color": "#eee" }
+        { "name": "Enrique ANTIA" , "votes": 34351 , "color": "#eee"},
+        { "name": "Carlos IAFIGLIOLA" , "votes": 1705 , "color": "#eee"}
       ]
     },
     {
@@ -34,12 +34,12 @@
       "votes": 184819,
       "color": "#cc0000",
       "candidates": [
-        { "name": "Jose AMORIN", "votes": 24487 , "color": "#eee"},
-        { "name": "Pedro ETCHEGARAY", "votes": 46 , "color": "#eee"},
-        { "name": "Jose GONZALEZ", "votes":3  , "color": "#eee"},
-        { "name": "Edgardo MARTINEZ", "votes": 188 , "color": "#eee"},
+        { "name": "Ernesto TALVI", "votes": 99280, "color": "#eee" },
         { "name": "Julio Maria SANGUINETTI", "votes": 60635 , "color": "#eee"},
-        { "name": "Ernesto TALVI", "votes": 99280, "color": "#eee" }
+        { "name": "Jose AMORIN", "votes": 24487 , "color": "#eee"},
+        { "name": "Edgardo MARTINEZ", "votes": 188 , "color": "#eee"},
+        { "name": "Pedro ETCHEGARAY", "votes": 46 , "color": "#eee"},
+        { "name": "Jose GONZALEZ", "votes":3  , "color": "#eee"}
       ]
     },
     {
@@ -95,8 +95,8 @@
       "votes": 6799,
       "color": "#68B048",
       "candidates": [
-        { "name": "Fernando CAROTTA", "votes": 90 , "color": "#eee"},
-        { "name": "Edgardo NOVICK", "votes": 6709, "color": "#eee" }
+        { "name": "Edgardo NOVICK", "votes": 6709, "color": "#eee" },
+        { "name": "Fernando CAROTTA", "votes": 90 , "color": "#eee"}
       ]
     },
     {
