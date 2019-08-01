@@ -1,10 +1,13 @@
 {
-  "general": [
-    { "name": "Votos En Blanco", "votes": 5436 },
-    { "name": "Votos Anulados", "votes": 7478 },
-    { "name": "Votos ObsRechazados", "votes": 634 },
-    { "name": "Total Votos Emitidos", "votes": 1078992 }
-  ],
+  "general":{
+    "total": 1078992,
+    "info": [
+      { "name": "Votos En Blanco", "votes": 5436 },
+      { "name": "Votos Anulados", "votes": 7478 },
+      { "name": "Votos ObsRechazados", "votes": 634 },
+      { "name": "Votos Validos", "votes": 1065444 }
+    ]
+  },
   "partidos": [
     {
       "name": "Frente Amplio",
@@ -137,14 +140,6 @@
       "color": "#F95F07",
       "candidates": [
         { "name": "Daniel GOLDMAN", "votes": 605, "color": "#eee" }
-      ]
-    },
-    {
-      "name": "Votos en Blanco",
-      "votes": 93712,
-      "color": "#fff",
-      "candidates": [
-        { "name": "Votos en Blanco", "votes": 93712, "color": "#eee" }
       ]
     }
   ]

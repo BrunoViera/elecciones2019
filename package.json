@@ -43,6 +43,8 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "@amcharts/amcharts4": "^4.5.11",
+    "@amcharts/amcharts4-geodata": "^4.1.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }

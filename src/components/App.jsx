@@ -6,11 +6,9 @@ import Nacional from './Nacional';
 
 type Props = {
   data: {
-    general: Array<{ name: string, votes: number }>,
+    general: any,
     partidos: Array<{
       name: string,
-      color: string,
-      votes: number,
       candidates: Array<{ name: string, color: string, votes: number }>
     }>
   }
@@ -18,11 +16,12 @@ type Props = {
 
 export default function App(props: Props) {
   const {
-    data: { general, partidos },
+    data,
+    data: { partidos },
   } = props;
 
   const partidosList = partidos
-    .map(partido => <Partido key={partido.name} data={partido} />);
+    .map(partido => <Partido key={partido.name} data={partido} name={partido.name} />);
 
   return (
     <div className="site-section app">
@@ -30,7 +29,7 @@ export default function App(props: Props) {
         <div className="row mb-5">
           <div className="col-12" data-aos="fade-up">
             <div className="site-section-heading">
-              <Nacional data={general} />
+              <Nacional data={data} />
 
               {partidosList}
             </div>
