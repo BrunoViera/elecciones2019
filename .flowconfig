@@ -1,11 +1,24 @@
 [ignore]
+<PROJECT_ROOT>/node_modules/*
+<PROJECT_ROOT>/dist/*
+<PROJECT_ROOT>/public/*
+<PROJECT_ROOT>/.babelrc
+<PROJECT_ROOT>/.eslintrc
+<PROJECT_ROOT>/.gitignore
+<PROJECT_ROOT>/LICENSE
+<PROJECT_ROOT>/package-lock.json
+<PROJECT_ROOT>/package.json
+<PROJECT_ROOT>/README.md
+<PROJECT_ROOT>/webpack.config.js
 
 [include]
+./src/*
 
 [libs]
 
 [lints]
 
 [options]
+all=true
 
 [strict]

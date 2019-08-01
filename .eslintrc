@@ -1,6 +1,9 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb"],
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
   "rules": {
     "max-len": ["error", {
       "code": 120
@@ -9,5 +12,6 @@
   "env": {
     "browser": true,
     "es6": true,
-  }
+  },
+  "plugins": ["flowtype"]
 }
