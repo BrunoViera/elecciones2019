@@ -10,6 +10,7 @@
 <PROJECT_ROOT>/package.json
 <PROJECT_ROOT>/README.md
 <PROJECT_ROOT>/webpack.config.js
+<PROJECT_ROOT>/docs/*
 
 [include]
 ./src/*
